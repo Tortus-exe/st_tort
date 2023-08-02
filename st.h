@@ -144,3 +144,4 @@ extern unsigned int defaultcs;
 extern char *iso14755_cmd;
 extern const int boxdraw, boxdraw_bold, boxdraw_braille;
 extern float alpha;
+extern unsigned int cursorstyle;

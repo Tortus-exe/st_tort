@@ -166,7 +166,7 @@ static unsigned int defaultrcs = 257;
  * 7: blinking st cursor
  * 8: steady st cursor
  */
-static unsigned int cursorstyle = 5;
+unsigned int cursorstyle = 5;
 static Rune stcursor = 0x2603; /* snowman ("☃") */
 
 /*
@@ -177,7 +177,7 @@ static Rune stcursor = 0x2603; /* snowman ("☃") */
  * 7: Snowman ("☃")
  */
 
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 6;
 
 /*
  * Default columns and rows numbers

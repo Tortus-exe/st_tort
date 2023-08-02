@@ -2071,6 +2071,7 @@ csihandle(void)
 			case 0:
 			case 1:
 			case 2:
+				xsetcursor(cursorstyle);
 				xsettitle(NULL, 1);
 				break;
 			default:

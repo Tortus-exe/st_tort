@@ -85,6 +85,7 @@ void die(const char *, ...);
 void redraw(void);
 void draw(void);
 
+void iso14755(const Arg *);
 void kscrolldown(const Arg *);
 void kscrollup(const Arg *);
 void printscreen(const Arg *);
@@ -140,5 +141,6 @@ extern unsigned int tabspaces;
 extern unsigned int defaultfg;
 extern unsigned int defaultbg;
 extern unsigned int defaultcs;
+extern char *iso14755_cmd;
 extern const int boxdraw, boxdraw_bold, boxdraw_braille;
 extern float alpha;
